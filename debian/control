@@ -1,0 +1,30 @@
+Source: wazo-python-anytree-packaging
+Section: python
+Priority: optional
+Maintainer: Wazo Maintainers <dev@wazo.community>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.7),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.5
+Homepage: https://github.com/c0fec0de/anytree
+
+Package: python-anytree
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-six (>= 1.9)
+Description: Python tree data library
+ .
+
+Package: python3-anytree
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-six (>= 1.9)
+Description: Python tree data library
+ .
