@@ -2,6 +2,10 @@
 
 Debian packaging for [anytree](http://anytree.readthedocs.io) used in Wazo.
 
+## Reason
+
+* Not packaged by Debian Buster
+* Needed by wazo-auth
 
 ## Upgrading
 
