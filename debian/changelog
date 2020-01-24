@@ -1,3 +1,9 @@
+wazo-python-anytree-packaging (2.4.3-1~wazo1) wazo-dev-buster; urgency=medium
+
+  * rebuild
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 24 Jan 2020 09:09:29 +0100
+
 wazo-python-anytree-packaging (2.4.3-1~wazo0) wazo-dev; urgency=mediumuu
 
   * Initial release.
